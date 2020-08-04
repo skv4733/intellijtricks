@@ -1,0 +1,10 @@
+1. is there a feature 'open all modified files'? Yes. Just press F4 on a changelist in the Changes view.
+Command + Shift + E opens all modified files in the project
+
+2. Intellij Diff 
+   1.  Previous Difference / Next Difference ⇧F7 F7
+    Use these buttons to jump to the next/previous difference.
+    When the last/first difference is reached, IntelliJ IDEA suggests to click the arrow buttons F7/⇧F7 once more and compare other files, depending on the Go to the next file after reaching last change option in the Differences Viewer settings.
+    This behavior is supported only when the Differences Viewer is invoked from the Version Control tool window ⌘9.
+  2. Jump to Source
+    ⌘↓	Click this button to open the selected file in the active pane in the editor. The caret will be placed in the same position as in the Differences Viewer.
